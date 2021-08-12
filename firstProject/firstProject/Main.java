@@ -26,6 +26,13 @@ public class Main {
 		//Exibir uma string formatada com o printf
 		System.out.printf("Olá %s, seja bem vindo!", nome);
 		
+		System.out.println("Qual a sua idade?"); //Usando println
+		
+		Scanner old = new Scanner(System.in);
+		String idade = old.nextLine();
+		
+		System.out.printf("Meu Deus %s anos? Que velho", idade);
+		
 		}
 
 }
