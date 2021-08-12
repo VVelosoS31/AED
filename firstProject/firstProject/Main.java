@@ -28,11 +28,11 @@ public class Main {
 		
 		System.out.println("Qual a sua idade?"); //Usando println
 		
+		//Ler String utilizando o Scanner novamente
 		Scanner old = new Scanner(System.in);
 		String idade = old.nextLine();
 		
-		//Exibindo um texto formatado utilizando printf
-		System.out.printf("Meu Deus %s anos? Que velho", idade);
+		System.out.printf("Meu Deus, %s anos? Que velho", idade);
 		
 		}
 
